@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Objek Wisata</title>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/objek_wisata.css">
+    <link href="style.css" rel="stylesheet">
+	<!--Script-->
+	<script type="text/javascript" src="assets/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-ui.js"></script>
+    <link rel="stylesheet" href="assets/jquery-ui.css">
+	<script type="text/javascript">
+		$(function(){
+		
+		$("#dialogku").dialog({
+		autoOpen:false,
+		show:'blind',
+		hide:'explode'
+		
+		});
+		$('#idbuka').click(function(){
+		
+		$('#dialogku').dialog('open');
+		return false;
+		
+		});
+		
+		});
+	</script>
+
+
+    </head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm">
+	<a class="navbar-brand" href="index.html">
+		<img src="images/monyet_logo-removebg-preview.png" alt="" width="40" height="32" class="dinline-block align-text-top">
+	<a class="navbar-brand" href="#">MONKEY FOREST</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+		<li class="nav-item active">
+		  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="rekomendasi.html">Rekomendasi Tempat</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="objek_wisata.html">Objek Wisata</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="wawasan.html">Wawasan</a>
+		  </li>
+	  </ul>
+	  <form class="form-inline my-2 my-lg-0">
+		<input class="form-control ms-sm-2" type="search" placeholder="Cari........." aria-label="Search">
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+	  </form>
+	</div>
+  </nav>
+<!--Akhir Navbar-->
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/Y32NCkDBvzI?autoplay=1&loop=1&mute=1"allowfullscreen></iframe>
+</iframe>
+<hr>
+<p style="text-align: center; font-weight: bold; font-size: xx-large;">Ada Apa Saja di Monkey Forest?</p>
+<br>
+<br>
+<div class="container">
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		<div class="col">
+		  <div class="card h-100">
+			<img src="images/firedance.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Kecak and Fire Dance</h5>
+			  <p class="card-text">Selain dapat berinteraksi dengan para monyet di Monkey Forest juga terdapat berbagai macam pertunjukkan,salah satunya adalah Kecak.Tertarik?Beli tiketnya di link dibawah.</p>
+			  <br>
+			  <div id="dialogku" title="Basic Dialog">
+				<p>Silahkan menghubungi kontak kami untuk pemesanan tiket</p>
+				</div>
+				<button id="idbuka" style="font-size: 15px; background-color: #90EE90;">Beli Tiket</button>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card h-100">
+			<img src="images/rusa timor.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Rusa Timoer</h5>
+			  <p class="card-text">Selain terdapat monyet di Monkey Forest juga terdapat Rusa Timoer yang dinyatakan sangat langka keberadaanya.</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card h-100">
+			<img src="images/bojog jalan.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Keindahan Hutan</h5>
+			  <p class="card-text">Disini juga para wisatawan dapat merasakan nuansa pedesaan sekaligus nuansa perhutanan sehingga tempat ini sangat cocok sekali digunakan untuk tempat healing.</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		  </div>
+		</div>
+	  </div>
+</div>
+<br>
+<br>
+<p style="text-align: center; font-weight: bold; font-size: xx-large;">Area Hutan yang Keramat sekaligus </p>
+<br>
+<p style="text-align: center; font-weight: bold; font-size: xx-large;">Rumah para Monyet Ekor Panjang</p>
+<br>
+<div class="container">
+<p class="card-text">
+	Ubud Monkey Forest Bali atau biasa disebut dengan Mandala Wisata Wenara Wana bukan hanya sebuah destinasi untuk melihat Kera, tetapi juga kompleks keagamaan dan spiritual yang sangat penting bagi masyarakat setempat. 
+	Di sini kamu akan menemukan Pura Hindu di Bali, sungai-sungai yang tenang, batu-batu indah berlumut lumut dan daerah hutan yang menakjubkan untuk dijelajahi. Penting juga untuk dicatat bahwa ini adalah tempat tinggal Kera dan mereka bebas berkeliaran sesuka hati, jadi kamu tetap harus berhati-hati.
+</p>
+</div>
+<img src="images/bojog eksis.jpg" style="display: block; margin: auto;">
+<br>
+<div class="container">
+<p class="card-text">
+	Ada beberapa hal menarik yang bisa kamu lakukan di Ubud Monkey Forest. Hal pertama adalah berinteraksi langsung dengan Kera-kera yang berkeliaran di sekitar Sacred Monkey Forest. Kamu bisa memberi mereka makanan dan menyentuh mereka dengan lembut. 
+	Saat berdekatan dengan kera disarankan untuk berhati-hati, dan lebih baik jika ada pemandu yang bisa mengendalikan mereka. Paling menarik adalah kamu bisa mengambil gambar dengan salah satu kera yang ada disana.
+</p>
+</div>
+<br>
+<p style="text-align: center; font-weight: bold; font-size: xx-large;">Fasilitas</p>
+<br>
+<div class="container">
+<p class="card-text">
+	Fasilitas di Monkey Forest Ubud sudah cukup memadai untuk menjaga kenyamanan pengunjung. Berikut fasilitasnya:
+	Area Parkir yang luas,Pemandu wisata,Jalan Setapak atau jalur jalan kaki yang nyaman,Papan pemandu,Toilet,Peta,Nursery Room,Kedai makanan dan masih banyak lagi.
+</p>
+</div>
+<br>
+<p style="text-align: center; font-weight: bold; font-size: xx-large;">Aktivitas</p>
+<br>
+<div class="container">
+	<p class="card-text">
+		Apa yang bisa dilakukan di Monkey Forest? Ada banyak hal menarik lho di sana, diantaranya adalah sebagai berikut:
+Menikmati suasana tenang di kawasan asri dan sejuk,Berinteraksi dengan kera-kera yang ramah, misalnya memberi makan dan sekaligus dapat berfoto dengan mereka,
+Berkunjung ke pura Monkey Forest sekaligus belajar sejarah, budaya dan seni,Melihat sekaligus meneliti beragam jenis pohon tua.
+Menyaksikan pertunjukan seni dan upacara keagamaan,Jika kamu ingin berinteraksi dengan kera, perlu kamu ketahui beberapa wilayah kekuasaan dimana mereka berada. Tempat tersebut adalah hutan baru, pura, timur, centra point, pemakaman dan Michelin.
+	</p>
+</div>
+<br>
+<p style="text-align: center; font-weight: bold; font-size: xx-large;">Tips Berkunjung ke Monkey Forest</p>
+<br>
+<div class="container">
+	<p class="card-text">
+		Sebagai salah satu tempat sakral di Bali, tentu terdapat beberapa hal yang perlu untuk diketahui saat berkunjung ke sini. Selain itu, ada beberapa tips kunjungan agar tak terjadi hal yang tidak diinginkan.
+
+Hormati penduduk dan adat istiadat terutama jika sedang diadakan upacara atau ibadah di pura.
+Tidak menyentuh atau menyakiti hewan atau tumbuhan dnegan cara apapun.
+Tidak bergerak tiba-tiba atau melakukan kegiatan yang menarik perhatian para kera.
+Tidak memberikan makanan sembarangan kepada kera. Jangan berikan biskuit, kacang, atau apapun selain pisang.
+Letakkan atau simpan barang berharga di tempat yang aman supaya tidak diambil kera. Jika hal tersebut terjadi, hubungi pemandu wisata.
+Berjalan di jalur yang sudah disediakan.
+Tidak membuat keributan dan tidak membuang sampah sembarangan.
+Tips di atas perlu diperhatikan sebagai langkah preventif agar liburanmu di objek wisata tersebut aman, nyaman dan menyenangkan.
+	</p>
+</div>
+<br>
+<!-- *** Footer *** -->
+<footer>
+	<hr >
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-lg-4">
+				  <div class="address">
+					  <h4>Alamat Monkey Forest Ubud</h4>
+					  <span>Jl. Monkey Forest, <br>Desa Padang Tegal,<br>Ubud, Gianyar.</span>
+				  </div>
+			  </div>
+			  <div class="col-lg-8">
+				  <div class="hours">
+					  <h4>Jam Buka</h4>
+					  <ul>
+						  <li>Senin - Jumat : 10:00 WITA s/d 18:00 WITA</li>
+						  <li>Sabtu - Minggu: 11:00 WITA s/d 16:00 WITA</li>
+					  </ul>
+				  </div>
+			  </div>
+			  <div class="col-lg-12">
+				  <div class="under-footer">
+					  <div class="row">
+						  <div class="col-lg-6">
+							  <p>Ubud, Gianyar, Bali.</p>
+						  </div>
+						  <div class="col-lg-6">
+							  <p class="copyright">Copyright By 2022 Agus Yudiawan</p>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+  </footer>
+</body>
+</html>

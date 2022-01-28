@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Monkey Forest</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/objek_wisata.css">
+	<!-- Link Jquery-->
+	<script type="text/javascript" src="assets/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-ui.js"></script>
+    <link rel="stylesheet" href="assets/jquery-ui.css">
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm">
+	<a class="navbar-brand" href="index.html">
+		<img src="images/monyet_logo-removebg-preview.png" alt="" width="40" height="32" class="dinline-block align-text-top">
+	<a class="navbar-brand" href="#">MONKEY FOREST</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+		<li class="nav-item active">
+		  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="rekomendasi.html">Rekomendasi Tempat</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="objek_wisata.html">Objek Wisata</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="wawasan.html">Wawasan</a>
+		  </li>
+	  </ul>
+	  <form class="form-inline my-2 my-lg-0">
+		<input class="form-control ms-sm-2" type="search" placeholder="Cari........." aria-label="Search">
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+	  </form>
+	</div>
+  </nav>
+
+<!--Akhir Navbar-->
+
+<!--Carousel-->
+	<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="First slide" class="d-block w-100" src="images/view.jpg">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 style="font-family: 'Patua One', cursive; font-weight: bold;">WISATA</h5>
+                    <h5 style="font-family: 'Patua One', cursive; font-weight: bold;">MONKEY FOREST UBUD</h5>
+					<p style="font-family: 'Indie Flower', cursive; color: white;">Hutan Monyet Ubud, adalah suaka dan habitat alami kera ekor panjang Bali. Terletak di Padangtegal Ubud, Bali. Sekitar 1049 monyet tinggal di cagar alam ini. </p>
+
+                    <div class="slider-btn">
+                        <a href="objek_wisata.html"><button class="btn btn-1" style="font-family: 'Indie Flower', cursive;" >See More</button></a>
+                    </div>
+
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Second slide" class="d-block w-100" src="images/night monk.jpg">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 style="font-family: 'Patua One', cursive; font-weight: bold;">ADA APA DI MONKEY FOREST?</h5>
+					<p style="font-family: 'Indie Flower', cursive; color: white;">Wisata Monkey Forest Ubud Merupakan Kawasan Hutan Lindung dan di dalam hutan ini, terdapat pura sakral umat Hindu Bali, bernama Pura Dalem Agung Padangtegal.</p>
+
+                    <div class="slider-btn">
+                        <button class="btn btn-1" style="font-family: 'Indie Flower', cursive;">See More</button>
+                    </div>
+
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Third slide" class="d-block w-100" src="images/monk hitung.jpg">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 style="font-family: 'Patua One', cursive; font-weight: bold;">Wisata Lain di Ubud?</h5>
+					<p style="font-family: 'Indie Flower', cursive; color: white;">Objek wisata Ubud Bali sangat terkenal sampai kemancanegara. Karena Ubud Bali menawarkan keunikan seni, dan budaya serta keindahan alam.</p>
+
+                    <div class="slider-btn">
+                        <button class="btn btn-1" style="font-family: 'Indie Flower', cursive;">See More</button>
+                    </div>
+
+				</div>
+			</div>
+		</div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+<!--Akhir Carousel-->
+<!-- Objek wisata -->
+<div class="container-fluid " style="background-color: #F3F4F5;">
+	<p id="objekwisata" class="display-4" style="text-align:center; background-color: #F3F4F5; font-size: 35px; font-weight: 500; padding: 30px; font-family: 'Staatliches', cursive;">About Us</p>
+	<div class="row">
+	<div class="col-md-6">
+		<h2 style="font-family: 'Prompt', sans-serif;">Monkey Forest Ubud</h2>
+		<p class="lead" style="font-family: 'Indie Flower', cursive;">Monkey Forest Ubud merupakan paket wisata yang terbilang unik di kawasan Bali. 
+			Seperti namanya, di hutan yang sakral dan memiliki pura ini, terdapat ratusan kera. 
+			Setiap hari, kera yang dikeramatkan dan dijaga oleh penduduk lokal ini turun ke tanah dan berinteraksi dengan wisatawan yang datang.
+			Pesona yang diberikan oleh Monkey Forest Ubud tidak hanya itu saja, banyak hal menarik yang akan membuat paket liburan ke sini berjalan dengan sempurna. 
+			Untuk informasi lengkap terkait hutan kera yang sakral ini, simak uraiannya di bawah ini.</p>
+<a href="objek_wisata.html" class="btn btn-primary">Selanjutnya</a>
+<br>
+	<h3 style="font-family: 'Prompt', sans-serif; font-size: 20px;">Website Kami</h3>
+	<a href="#" class="fa fa-facebook" style="font-size: 30px;"></a>
+	<a href="#" class="fa fa-twitter" style="font-size: 30px;"></a>
+	<a href="#" class="fa fa-instagram" style="font-size: 30px;"></a>
+</div>
+<div class="col-md-6">
+	<figure>
+	<img src="images/bojog negak.jpg" width="100%" class="imgfluid">
+	<figcaption style="text-align:center; font-family: 'Indie Flower', cursive;">Gambar Monkey Forest</figcaption>
+</figure>
+</div>
+</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-6">
+<figure>
+	<img src="images/bojog with tamu_auto_x2.jpg" width="100%" class="imgfluid">
+<figcaption style="text-align:center; font-family: 'Indie Flower', cursive;">Gambar Temple Wenara Wana</figcaption>
+</figure>
+</div>
+	<div class="col-md-6">
+	<h2 style="font-family: 'Prompt', sans-serif;">Mandala Suci Wenara Wana</h2>
+	<p class="lead" style="font-family: 'Indie Flower', cursive;">Mandala Wisata Wenara Wana Ubud, sebuah hutan keramat tempat hunian ratusan kera yang berada di Desa Padangtegal, Ubud, Gianyar, Bali. 
+		Namun Mandala Wisata Wenara Wana ternyata bukan hanya sekadar menjadi tempat tinggal kera, tetapi juga ada tiga pura di dalamnya yang telah berusia lebih dari lima ratus tahun.
+		Mandala Wisata Wenara Wana juga disebut Hutan Monyet Ubud atau Sacred Monkey Forest, 
+		dan merupakan cagar alam dengan sedikitnya 115 spesies pohon yang menjadi hunian kurang lebih 340 ekor monyet ekor panjang 
+		(Macaca fascicularis) dengan empat kelompok monyet berdiam di wilayah berbeda.</p>
+	<a href="objek_wisata.html" class="btn btn-primary">Selanjutnya</a>
+	<br>
+		<h3 style="font-family: 'Prompt', sans-serif; font-size: 20px;">Website Kami</h3>
+	<a href="#" class="fa fa-facebook" style="font-size: 30px;"></a>
+	<a href="#" class="fa fa-twitter" style="font-size: 30px;"></a>
+	<a href="#" class="fa fa-instagram" style="font-size: 30px;"></a>
+</div>
+</div>
+	</div>
+	<!--Akhir Objek Wisata-->
+	<!--Card-->
+	<div class="container-fluid" style="background-color: #F3F4F5;">
+		<p id="sarana" class="display-4" style="text-align:center; background-color: #F3F4F5; font-size: 35px; font-weight: 500; padding: 50px; font-family: 'Staatliches', cursive;">Tempat Wisata Lainnya di Bali</p>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card" style="width: 23rem;">
+		 		<img src="images/panglipuran.jpg" class="card-img-top" alt="...">
+		 		<div class="card-body">
+		 		<h5 class="card-title" style="font-family: 'Jost', sans-serif; font-weight: bold;">Penglipuran Village</h5>
+		 		<p class="card-text" style="font-family: 'Indie Flower', cursive;">Desa adat Penglipuran merupakan sebuah komplek pemukiman penduduk yang ramah lingkungan, 
+					 bangunan-bangunan tertata rapi dibangun di atas luas lahan yang sama, pintu utama (angku-angkul) berbentuk sama dan simetris, 
+					 suasana perkampungan yang unik dan indah.</p>
+		 <a href="#" class="btn btn-primary">Cek Sekarang</a>
+		 </div>
+	</div>
+</div>
+	<div class="col-md-4">
+		<div class="card" style="width: 23rem;">
+		 	<img src="images/rice.jpg" class="card-img-top" alt="...">
+		 	<div class="card-body">
+		 	<h5 class="card-title" style="font-family: 'Jost', sans-serif; font-weight: bold;">Tegalalang Rice</h5>
+		 	<p class="card-text" style="font-family: 'Indie Flower', cursive;">Tegalalang Rice Terraces yakni pemandangan sawah yang indah 
+				 dan sistem irigasi inovatif yang dibuat oleh penduduk setempat. Dikenal sebagai subak, yakni sistem irigasi koperasi tradisional Bali 
+				 yang diturunkan oleh leluhur yang dihormati bernama Rsi Markandeya pada abad ke-8.</p>
+		 <a href="#" class="btn btn-primary">Cek Sekarang</a>
+		</div>
+	</div>
+</div>
+	<div class="col-md-4">
+		<div class="card" style="width: 23rem;">
+		 	<img src="images/tirta empul.jpg" class="card-img-top" alt="...">
+		 	<div class="card-body">
+		 	<h5 class="card-title" style="font-family: 'Jost', sans-serif; font-weight: bold;">Pura Tirta Empul</h5>
+		 	<p class="card-text" style="font-family: 'Indie Flower', cursive;">Tirta Empul adalah nama sebuah pura Hindu yang terletak di desa Manukaya, 
+				 kecamatan Tampak Siring, kabupaten Gianyar Bali. Keunikan arsitektur dan adanya mata air pada area dalam pura, 
+				 membuat pura Tirta Empul menarik banyak kunjungan wisatawan. </p>
+		 <a href="" class="btn btn-primary">Cek Sekarang</a>
+		</div>
+	</div>
+</div>
+</div>
+<hr>
+<!--Akhir Card-->
+<!--Striped/Proggress-->
+<div class="container" style="background-color: #D3D3D3; font-family: 'Staatliches', cursive;">
+	<p id="kunjungan" class="display-4" style="text-align:center; background-color: #D3D3D3;">Kunjungan Wisatawan</p>
+	<div class="progress" >
+		<label class="h6">Eropa	: </label>
+	<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="65" aria-valuemin="0"aria-valuemax="100" style="width: 65%">65%</div>
+	</div>
+	<br>
+	<div class="progress">
+	<label class="h6">Asia 		: </label>
+		<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0"aria-valuemax="100" style="width: 60%">60%</div>
+	</div>
+	<br>
+		<div class="progress">
+	<label class="h6">Amerika 	: </label>
+		<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0"aria-valuemax="100" style="width: 70%">70%</div>
+	</div>
+	<br>
+	<div class="progress">
+		<label class="h6">Australia	: </label>
+	<div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0"aria-valuemax="100" style="width: 75%">75%</div>
+	</div>
+	<br>
+</div>
+<br>
+<!--Akhir Striped/Proggress-->
+<!--Form Contact-->
+<!-- Form -->
+<br>	
+<div class="container" style="background-color: #F3F4F5;">
+	<p class="display-4" style="text-align:center; background-color:#F3F4F5; font-family: 'Patua One', cursive; font-size: xx-large;">Hubungi Kami</p>
+<hr>
+<form class="row g-3">
+<div class="col-md-6">
+	<label for="namadepan" class="form-label" style="font-family: 'Indie Flower', cursive;">Nama Depan</label>
+	<input type="text" class="form-control" id="namadepan">
+</div>
+	<div class="col-md-6">
+	<label for="namabelakang" class="form-label" style="font-family: 'Indie Flower', cursive;">Nama Belakang</label>
+	<input type="text" class="form-control" id="namabelakang">
+</div>
+	<div class="col-md-6">
+	<label for="inputEmail4" class="form-label" style="font-family: 'Indie Flower', cursive;">Email</label>
+	<input type="email" class="form-control" id="inputEmail4">
+</div>
+	<div class="col-md-6">
+	<label for="inputPassword4" class="form-label" style="font-family: 'Indie Flower', cursive;">Password</label>
+	<input type="password" class="form-control" id="inputPassword4">
+</div>
+	<div class="col-12">
+	<label for="notelp" class="form-label" style="font-family: 'Indie Flower', cursive;">No Telp</label>
+	<input type="text" class="form-control" id="notelp" >
+</div>
+	<div class="col-12">
+	<label for="alamat" class="form-label" style="font-family: 'Indie Flower', cursive;">Alamat</label>
+	<input type="text" class="form-control" id="alamat" >
+</div>
+	<div class="col-md-6">
+	<label for="inputCity" class="form-label" style="font-family: 'Indie Flower', cursive;">Kota</label>
+	<input type="text" class="form-control" id="inputCity">
+</div>
+	<div class="col-md-4">
+	<label for="inputState" class="form-label" style="font-family: 'Indie Flower', cursive;">Negara</label>
+	<select id="inputState" class="form-select">
+		<option selected>Choose...</option>
+		<option>...</option>
+	</select>
+</div>
+	<div class="col-md-2">	
+	<label for="inputZip" class="form-label" style="font-family: 'Indie Flower', cursive;">Zip</label>
+	<input type="text" class="form-control" id="inputZip">
+</div>
+	<div class="col-12">
+	<div class="form-check">
+	<input class="form-check-input" type="checkbox" id="gridCheck">
+	<label class="form-check-label" for="gridCheck" style="font-family: 'Indie Flower', cursive;">Check me out</label>
+	</div>
+</div>
+	<div class="col-12">
+	<button type="submit" class="btn btn-primary" style="font-family: 'Indie Flower', cursive;">Kirim</button>
+</div>	
+</form>
+</div>
+<br>
+<!--Akhir Form Contact-->
+<!--Page-->
+	<nav aria-label="Page navigation example">
+	 <ul class="pagination justify-content-center">
+	 <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+	 <li class="page-item"><a class="page-link" href="#">1</a></li>
+	 <li class="page-item"><a class="page-link" href="#">2</a></li>
+	 <li class="page-item"><a class="page-link" href="#">3</a></li>
+	 <li class="page-item"><a class="page-link" href="#">Next</a></li>
+	 </ul>
+	</nav>
+<!--Page-->
+	<!--Footer-->
+	<footer>
+		<hr >
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-lg-4">
+					  <div class="address">
+						  <h4>Alamat Monkey Forest Ubud</h4>
+						  <span>Jl. Monkey Forest, <br>Desa Padang Tegal,<br>Ubud, Gianyar.</span>
+					  </div>
+				  </div>
+				  <div class="col-lg-8">
+					  <div class="hours">
+						  <h4>Jam Buka</h4>
+						  <ul>
+							  <li>Senin - Jumat : 10:00 WITA s/d 18:00 WITA</li>
+							  <li>Sabtu - Minggu: 11:00 WITA s/d 16:00 WITA</li>
+						  </ul>
+					  </div>
+				  </div>
+				  <div class="col-lg-12">
+					  <div class="under-footer">
+						  <div class="row">
+							  <div class="col-lg-6">
+								  <p>Ubud, Gianyar, Bali.</p>
+							  </div>
+							  <div class="col-lg-6">
+								  <p class="copyright">Copyright By 2022 Agus Yudiawan</p>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+	  </footer>	  
+</body>
+</html>
